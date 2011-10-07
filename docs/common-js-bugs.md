@@ -1,4 +1,3 @@
-
 ## Bugs
 
 1. Undefined symbols (*by far* the #1)
@@ -18,7 +17,7 @@ of certain wants.
    
 3. Pattern matching based on values like in Haskell.
 
-4.. Function overloading (enforced by a compiler)
+4. Function overloading (enforced by a compiler)
     
     In Coffee currently (as in JS), you can do 
     
@@ -35,5 +34,5 @@ of certain wants.
     poly string = ...
     ```
     
-    This pattern is very common in popular libraries such as jQuery, where functions like val are overloaded to act as
+    This pattern is very common in popular libraries such as jQuery, where functions like `val` are overloaded to act as
     both getters and setters.
